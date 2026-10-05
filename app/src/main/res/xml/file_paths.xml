@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Narrow on purpose: page originals in filesDir are never exposed directly. -->
+    <cache-path
+        name="exports"
+        path="exports/" />
+</paths>

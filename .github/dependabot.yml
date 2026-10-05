@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      # Kotlin, KSP and the Compose compiler plugin must move together.
+      kotlin-toolchain:
+        patterns:
+          - "org.jetbrains.kotlin*"
+          - "com.google.devtools.ksp*"
+      androidx-camera:
+        patterns:
+          - "androidx.camera:*"
+      androidx-room:
+        patterns:
+          - "androidx.room:*"
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly

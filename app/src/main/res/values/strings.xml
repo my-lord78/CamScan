@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScanKu</string>
+
+    <!-- Common actions -->
+    <string name="action_scan">Pindai</string>
+    <string name="action_scan_first">Pindai dokumen pertama</string>
+    <string name="action_import">Impor dari galeri</string>
+    <string name="action_capture">Ambil foto</string>
+    <string name="action_back">Kembali</string>
+    <string name="action_close">Tutup</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_ok">OK</string>
+    <string name="action_next">Lanjut</string>
+    <string name="action_done">Selesai</string>
+    <string name="action_clear">Hapus pencarian</string>
+    <string name="action_copy">Salin</string>
+    <string name="action_share">Bagikan</string>
+    <string name="action_rename">Ganti nama</string>
+    <string name="action_share_pdf">Bagikan PDF</string>
+    <string name="action_save_pdf">Simpan PDF ke perangkat</string>
+    <string name="action_share_images">Bagikan sebagai JPG</string>
+    <string name="action_share_image">Bagikan gambar</string>
+    <string name="action_delete_doc">Hapus dokumen</string>
+    <string name="action_delete_page">Hapus halaman</string>
+    <string name="action_add_page">Tambah halaman</string>
+    <string name="action_ocr">Ambil teks (OCR)</string>
+    <string name="more_options">Opsi lainnya</string>
+    <string name="more_options_for">Opsi untuk %1$s</string>
+
+    <!-- Home -->
+    <string name="search_hint">Cari judul atau isi teks…</string>
+    <string name="empty_title">Belum ada dokumen</string>
+    <string name="empty_body">Arahkan kamera ke dokumen — tepinya terdeteksi otomatis, lalu dipotong dan dirapikan.</string>
+    <string name="empty_search_title">Tidak ditemukan</string>
+    <string name="empty_search_body">Tidak ada dokumen yang cocok dengan pencarian Anda.</string>
+    <plurals name="page_count">
+        <item quantity="one">%d hal</item>
+        <item quantity="other">%d hal</item>
+    </plurals>
+
+    <!-- Camera -->
+    <string name="camera_title_new">Pindai dokumen</string>
+    <string name="camera_title_add">Tambah halaman</string>
+    <string name="camera_auto">Otomatis</string>
+    <string name="camera_hint_searching">Arahkan kamera ke dokumen</string>
+    <string name="camera_hint_hold">Dokumen terdeteksi — tahan sebentar…</string>
+    <string name="camera_hint_found">Dokumen terdeteksi — tekan tombol untuk memotret</string>
+    <string name="camera_hint_capturing">Memotret…</string>
+    <string name="camera_error">Kamera tidak dapat dibuka</string>
+    <string name="torch_on">Nyalakan lampu kilat</string>
+    <string name="torch_off">Matikan lampu kilat</string>
+    <string name="capture_failed">Gagal mengambil foto. Coba lagi.</string>
+    <string name="camera_permission_title">Izin kamera diperlukan</string>
+    <string name="camera_permission_body">ScanKu memakai kamera untuk memindai dokumen. Foto hanya disimpan di perangkat ini.</string>
+    <string name="camera_permission_denied">Izin kamera ditolak. Jika tombol di bawah tidak berfungsi, aktifkan izin Kamera untuk ScanKu di Pengaturan sistem. Anda tetap bisa mengimpor dari galeri.</string>
+    <string name="camera_permission_grant">Izinkan kamera</string>
+
+    <!-- Review -->
+    <string name="review_crop_title">Sesuaikan tepi</string>
+    <string name="review_filter_title">Filter</string>
+    <string name="review_discard">Buang foto ini</string>
+    <string name="review_back_to_crop">Kembali ke potong</string>
+    <string name="review_auto">Otomatis</string>
+    <string name="review_full">Penuh</string>
+    <string name="review_save_more">Pindai lagi</string>
+    <string name="review_invalid_quad">Sudut tidak valid — tepi tidak boleh bersilangan.</string>
+    <string name="review_load_failed">Gambar tidak dapat dibuka.</string>
+    <string name="review_process_failed">Gagal memproses gambar. Coba lagi.</string>
+    <string name="review_opencv_missing">Mesin pemrosesan gambar tidak tersedia di perangkat ini.</string>
+    <string name="review_crop_a11y">Foto dengan bingkai dokumen. Seret keempat sudut untuk menyesuaikan.</string>
+    <string name="review_preview_a11y">Pratinjau hasil pindaian</string>
+    <string name="rotate_left">Putar ke kiri</string>
+    <string name="rotate_right">Putar ke kanan</string>
+    <string name="filter_magic">Ajaib</string>
+    <string name="filter_original">Asli</string>
+    <string name="filter_gray">Abu-abu</string>
+    <string name="filter_bw">Hitam putih</string>
+    <string name="filter_lighten">Cerahkan</string>
+    <string name="save_failed">Gagal menyimpan halaman.</string>
+    <string name="import_failed">Gambar tidak dapat diimpor (bukan gambar atau lebih dari 40 MB).</string>
+
+    <!-- Document / page -->
+    <string name="page_title">Halaman</string>
+    <string name="page_number">Halaman %1$d</string>
+    <string name="move_earlier">Pindahkan halaman %1$d ke depan</string>
+    <string name="move_later">Pindahkan halaman %1$d ke belakang</string>
+    <string name="rename_title">Ganti nama dokumen</string>
+    <string name="rename_label">Nama</string>
+    <string name="rename_counter">%1$d/%2$d</string>
+    <string name="delete_doc_title">Hapus dokumen?</string>
+    <string name="delete_doc_message">“%1$s” beserta semua halamannya akan dihapus permanen.</string>
+    <string name="delete_page_title">Hapus halaman?</string>
+    <string name="delete_page_message">Halaman ini akan dihapus permanen.</string>
+    <string name="delete_failed">Gagal menghapus.</string>
+    <string name="export_failed">Gagal mengekspor dokumen.</string>
+    <string name="pdf_saved">PDF tersimpan.</string>
+    <string name="ocr_title">Teks hasil OCR</string>
+    <string name="ocr_empty">Tidak ada teks yang terbaca.</string>
+    <string name="ocr_failed">Gagal membaca teks.</string>
+    <string name="copied">Disalin ke papan klip</string>
+    <string name="share_chooser">Bagikan melalui</string>
+    <string name="share_pdf_chooser">Bagikan PDF melalui</string>
+    <string name="share_text_chooser">Bagikan teks melalui</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_appearance">Tampilan</string>
+    <string name="theme_system">Ikuti sistem</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="settings_scanning">Pemindaian</string>
+    <string name="settings_auto_capture">Potret otomatis</string>
+    <string name="settings_auto_capture_body">Ambil foto sendiri saat dokumen terdeteksi dan kamera stabil.</string>
+    <string name="settings_default_filter">Filter bawaan</string>
+    <string name="settings_pdf">PDF</string>
+    <string name="settings_pdf_size">Ukuran halaman</string>
+    <string name="pdf_a4">A4</string>
+    <string name="pdf_letter">Letter</string>
+    <string name="pdf_fit">Sesuai gambar</string>
+    <string name="settings_about">Tentang &amp; privasi</string>
+    <string name="settings_privacy_body">Semua pindaian dan teks OCR diproses dan disimpan hanya di perangkat ini. Aplikasi tidak memiliki izin internet dan tidak dicadangkan otomatis — ekspor ke PDF untuk menyimpan cadangan.</string>
+    <string name="settings_version">Versi %1$s</string>
+</resources>

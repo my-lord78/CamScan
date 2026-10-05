@@ -1,0 +1,13 @@
+package com.scanku.app.data.db
+
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
+@Database(
+    entities = [DocumentEntity::class, PageEntity::class],
+    version = 1,
+    exportSchema = true,
+)
+abstract class AppDatabase : RoomDatabase() {
+    abstract fun documentDao(): DocumentDao
+}
